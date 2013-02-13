@@ -324,15 +324,15 @@ nav.is-sticky .textLogo img {
 	background-position: 0 -114px;
 }
 
-.mail:hover {
+.social a:hover .mail {
   background-position: -41px 0px;
 }
 
-.twitter:hover {
+.social a:hover .twitter {
   background-position: -41px -38px;
 }
 
-.addy:hover {
+.social a:hover .addy {
   background-position: -41px -76px;
 }
 
