@@ -1,4 +1,6 @@
 .DS_Store
-*.sublime-workspace
+*.sublime*
 node_modules/
 npm-debug.log
+server.js
+package.json
