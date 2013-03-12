@@ -3,7 +3,7 @@
    ========================================================================== */
 
 body {
-	background-image: url(../img/lightpaperfibers.png);
+/*  background-image: url(../img/lightpaperfibers.png);*/
 	background-size: 500px 300px;
 	font-family: 'Oswald', sans-serif;
 	letter-spacing: 1px;
@@ -149,7 +149,7 @@ nav.is-sticky .textLogo img {
 }
 
 .home {
-	background: url(../img/soul_of_new_orleans.png) center no-repeat fixed;
+	background: url(../img/soul_of_new_orleans.jpg) center no-repeat fixed;
 	background-size: cover;
 	height: 700px;
 	text-align: center;
@@ -227,12 +227,16 @@ nav.is-sticky .textLogo img {
 }
 
 .team .bio-text{
-  height: 300px;
+  height: 400px;
 }
 
+.team{
+
+  
+}
 .team img {
-	max-width: 370px;
-	max-height: 255px;
+	max-width: 400px;
+	max-height: 400px;
 }
 
 .team hr.bottomLine {
@@ -420,72 +424,96 @@ footer {
 
 @media (max-width: 767px) {
 
-	body {
-		padding-right: 0px;
-		padding-left: 0px;
-	}
+  body {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 
-	section {
-		margin-bottom: 50px;
-	}
+  section {
+    margin-bottom: 50px;
+  }
 
-	h3 {
-		margin-bottom: 30px;
-	}
+  h3 {
+    margin-bottom: 30px;
+  }
 
-	.navbar-inner,
-	.home,
-	.product,
-	.team, 
-	.contact,
-	footer {
-		padding-right: 20px;
-		padding-left: 20px;
-	}
+  .navbar-inner,
+  .home,
+  .product,
+  .team, 
+  .contact,
+  footer {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
 
-	.navbar .nav.navLogo li a {
-		padding: 7px 0px 0px 0px;
-	}
+  .navbar .nav.navLogo li a {
+    padding: 7px 0px 0px 0px;
+  }
 
   .home {
-		height: 530px;
-	}
+    height: 530px;
+  }
 
-	.home img.logo {
-		margin-top: 100px;
-	}
+  .home img.logo {
+    margin-top: 100px;
+  }
 
-	.home p {
-		font-size: 32px;
-		line-height: 45px;
-	}
+  .home p {
+    font-size: 32px;
+    line-height: 45px;
+  }
 
-	.product p {
-		font-size: 22px;
-		line-height: 32px;
-		margin: 20px auto 50px;
-	}
+  .product p {
+    font-size: 22px;
+    line-height: 32px;
+    margin: 20px auto 50px;
+  }
 
-	.team .bio {
-		margin-bottom: 100px;
-	}
+  .team .bio {
+    margin-bottom: 100px;
+  }
 
-	.team .bio3 {
-		margin-bottom: 0px;
-	}
+  .team .bio3 {
+    margin-bottom: 0px;
+  }
 
-	.team .social li {
-		width: 114px;
-	}
+  .team .social li {
+    width: 114px;
+  }
   
 
 
-	iframe {
-		width: 360px;
-		height: 200px;
-		margin-top: 16px;
-	}
+  iframe {
+    width: 360px;
+    height: 200px;
+    margin-top: 16px;
+  }
 }
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  
+  body{
+    width: 400px;
+  }
+  .home{
+    width: 100%;
+  }  
+  
+  .team .bio-text{
+    height: 400px;
+  }
+  
+  .team .social li{
+    width: 100px;
+  }
+
+}
+
+
 
 
 
