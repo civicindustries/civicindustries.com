@@ -227,7 +227,7 @@ nav.is-sticky .textLogo img {
 }
 
 .team .bio-text{
-  height: 300px;
+/*  height: 300px*/
 }
 
 .team{
@@ -504,7 +504,7 @@ footer {
   }  
   
   .team .bio-text{
-    height: 400px;
+/*    height: 400px;*/
   }
   
   .team .social li{
